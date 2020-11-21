@@ -1,0 +1,65 @@
+[
+  {
+    "questionName": "BasicMath1",
+    "question": "",
+    "formula": "\\begin{align*}x%2B5y%26=5\\\\x-3y%26=3\\end{align*}",
+    "IsQuestionFormula": 1,
+    "answers": [ "(4,\\frac{1}{3})", "(3,-3)", "(5,-3)", "(\\frac{1}{2},3)" ],
+    "IsAnswersFormula": 1,
+    "courrectAnswer": 0
+  },
+  {
+    "questionName": "BasicMath2",
+    "question": "",
+    "formula": "\\begin{align*}5x%2B2y%26=14\\\\5x%2B3y%26=23\\end{align*}",
+    "IsQuestionFormula": 1,
+    "answers": [ "(2,4)", "(-\\frac{4}{5},9)", "(-2,4)", "(\\frac{2}{5},-6)" ],
+    "IsAnswersFormula": 1,
+    "courrectAnswer": 1
+  },
+  {
+    "questionName": "BasicMath3",
+    "question": "",
+    "formula": "\\begin{align*}3x%2By%26=11\\\\y%26=5\\end{align*}",
+    "IsQuestionFormula": 1,
+    "answers": [ "(-3,8)", "(0,1)", "(2,5)", "(-1,7)" ],
+    "IsAnswersFormula": 1,
+    "courrectAnswer": 2
+  },
+  {
+    "questionName": "BasicMath4",
+    "question": "",
+    "formula": "\\begin{align*}-3x%2B2y%26=-16\\\\x%26=5y%2B14\\end{align*}",
+    "IsQuestionFormula": 1,
+    "answers": [ "(7,-2)", "(3,-4)", "(-3,-1)", "(4,-2)" ],
+    "IsAnswersFormula": 1,
+    "courrectAnswer": 3
+  },
+  {
+    "questionName": "BasicMath5",
+    "question": "",
+    "formula": "\\begin{align*}5x-2y%26=-2\\\\x%2B4y%26=4\\end{align*}",
+    "IsQuestionFormula": 1,
+    "answers": [ "(0,1)", "(-1,1)", "(0,0)", "(2,2)" ],
+    "IsAnswersFormula": 1,
+    "courrectAnswer": 0
+  },
+  {
+    "questionName": "BasicMath6",
+    "question": "",
+    "formula": "\\begin{align*}1x%2B3y%26=5\\\\5x%2B7y%26=11\\end{align*}",
+    "IsQuestionFormula": 1,
+    "answers": [ "(1,1)", "(-2,3)", "(2,-1)", "(5,-3)" ],
+    "IsAnswersFormula": 1,
+    "courrectAnswer": 1
+  },
+  {
+    "questionName": "BasicMath7",
+    "question": "",
+    "formula": "\\begin{align*}y%26=x-3\\\\y%26=2x%2B4\\end{align*}",
+    "IsQuestionFormula": 1,
+    "answers": [ "(3,0)", "(5,14)", "(-7,-10)", "(3,-9)" ],
+    "IsAnswersFormula": 1,
+    "courrectAnswer": 2
+  }
+]

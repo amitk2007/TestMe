@@ -154,7 +154,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14766}
     - Class: 114
-      Script: {instanceID: 15504}
+      Script: {instanceID: 15506}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -282,9 +282,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15006}
     - Class: 114
-      Script: {instanceID: 15026}
+      Script: {instanceID: 15028}
     - Class: 114
-      Script: {instanceID: 15354}
+      Script: {instanceID: 15356}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -965,6 +965,12 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameData
+  - hash:
+      serializedVersion: 2
       Hash: 87ad3705a58f19c47136728d4a6e9c47
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1113,12 +1119,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMP_TextEventCheck
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameData
   platform: 13
   scenePathNames:
   - Assets/Scenes/OpeningSceen.unity
@@ -1126,4 +1126,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Card.unity
   - Assets/Scenes/ProjectFormula.unity
   - Assets/Scenes/Levels.unity
-  playerPath: C:/Users/Kalan/Desktop/textme06.apk
+  playerPath: C:/Users/Kalan/Desktop/textme07.apk

@@ -22,7 +22,7 @@
     "question": "",
     "formula": "\\begin{eqnarray}f(x)=3x\\sqrt{1-2x}\\end{eqnarray}",
     "IsQuestionFormula": 1,
-    "answers": [ "", "", "" ],
+    "answers": [ "x\\leq\\frac{1}{4}", "x\\leq\\frac{1}{2}", "x\\geq-\\frac{1}{2}", "x\\geq4" ],
     "IsAnswersFormula": 1,
     "courrectAnswer": 1
   },
@@ -31,7 +31,7 @@
     "question": "",
     "formula": "\\begin{eqnarray}f(x)=\\frac{5x}{\\sqrt{x%2B4}}\\end{eqnarray}",
     "IsQuestionFormula": 1,
-    "answers": [ "", "", "" ],
+    "answers": [ "x<3", "x>4", "x\\leq-4", "x\\neq\\frac{1}{4}" ],
     "IsAnswersFormula": 1,
     "courrectAnswer": 1
   },
@@ -40,8 +40,8 @@
     "question": "",
     "formula": "\\begin{eqnarray}f(x)=\\sqrt{\\sqrt{x%2B2}-3}\\end{eqnarray}",
     "IsQuestionFormula": 1,
-    "answers": [ "", "", "" ],
-    "IsAnswersFormula": 1,
+    "answers": [ "x\\neq7", "x>-7", "x\\geq7" ],
+    "IsAnswersFormula": 2,
     "courrectAnswer": 1
   }
 ]

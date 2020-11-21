@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bc50dad557a34748ad33883b5c08c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  formula: x\leq7
+  formula: \begin{align*}2x-5y%26=8\\3x%2B9y%26=-12\end{align*}
   formulaImage: {fileID: 1723864462}
 --- !u!114 &624409352
 MonoBehaviour:
