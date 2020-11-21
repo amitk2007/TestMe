@@ -1886,7 +1886,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1444763614}
         m_TargetAssemblyTypeName: MenuScript, Assembly-CSharp
-        m_MethodName: OpenCards
+        m_MethodName: OpenLevels
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4272,6 +4272,7 @@ MonoBehaviour:
   username: {fileID: 0}
   password: {fileID: 0}
   wrongInput: {fileID: 0}
+  simpleSnap: {fileID: 0}
 --- !u!114 &1444763617
 MonoBehaviour:
   m_ObjectHideFlags: 0

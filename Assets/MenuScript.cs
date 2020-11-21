@@ -11,6 +11,7 @@ public class MenuScript : MonoBehaviour
     public TMP_InputField username;
     public TMP_InputField password;
     public TextMeshProUGUI wrongInput;
+    public DanielLochner.Assets.SimpleScrollSnap.SimpleScrollSnap simpleSnap;
 
     // Start is called before the first frame update
     void Start()
@@ -81,8 +82,14 @@ public class MenuScript : MonoBehaviour
         //comingSoonCanvas.SetActive(false);
     }
 
+    public void OpenLevels()
+    {
+        Application.LoadLevel("Levels");
+    }
+
     public void OpenCards()
     {
+        GameData.CurrentQuestionPack  = simpleSnap.Panels[simpleSnap.CurrentPanel].name;
         Application.LoadLevel("Card");
     }
 }

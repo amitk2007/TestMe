@@ -54,8 +54,8 @@
     <UnityVersion>2020.2.0a13</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Simple Side-Menu\Scripts\Editor\SimpleSideMenuEditor.cs" />
     <Compile Include="Assets\Simple Scroll-Snap\Scripts\Editor\SimpleScrollSnapEditor.cs" />
+    <Compile Include="Assets\Simple Side-Menu\Scripts\Editor\SimpleSideMenuEditor.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.0a13/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

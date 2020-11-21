@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AddFormulaImage
     - CreatQuestionCard
+    - DanielLochner.Assets.SimpleScrollSnap.SimpleScrollSnap
     - DanielLochner.Assets.SimpleSideMenu.SimpleSideMenu
     - JsonReader
     - MenuScript
@@ -43,7 +44,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
     - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Slider
   sceneClasses:
     Assets/Scenes/Card.unity:
@@ -66,29 +69,92 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12320}
     - Class: 114
-      Script: {instanceID: 12368}
+      Script: {instanceID: 12378}
     - Class: 114
-      Script: {instanceID: 12456}
+      Script: {instanceID: 12466}
     - Class: 114
-      Script: {instanceID: 12626}
+      Script: {instanceID: 12634}
     - Class: 114
-      Script: {instanceID: 13284}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13432}
+      Script: {instanceID: 13440}
     - Class: 114
-      Script: {instanceID: 13470}
+      Script: {instanceID: 13478}
     - Class: 114
-      Script: {instanceID: 13594}
+      Script: {instanceID: 13602}
     - Class: 114
-      Script: {instanceID: 13760}
+      Script: {instanceID: 13772}
     - Class: 114
-      Script: {instanceID: 13798}
+      Script: {instanceID: 13810}
     - Class: 114
-      Script: {instanceID: 13988}
+      Script: {instanceID: 14000}
     - Class: 114
-      Script: {instanceID: 14094}
+      Script: {instanceID: 14106}
     - Class: 114
-      Script: {instanceID: 14204}
+      Script: {instanceID: 14216}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Levels.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 12320}
+    - Class: 114
+      Script: {instanceID: 12322}
+    - Class: 114
+      Script: {instanceID: 12378}
+    - Class: 114
+      Script: {instanceID: 12634}
+    - Class: 114
+      Script: {instanceID: 13290}
+    - Class: 114
+      Script: {instanceID: 13440}
+    - Class: 114
+      Script: {instanceID: 13478}
+    - Class: 114
+      Script: {instanceID: 13602}
+    - Class: 114
+      Script: {instanceID: 13810}
+    - Class: 114
+      Script: {instanceID: 13896}
+    - Class: 114
+      Script: {instanceID: 14766}
+    - Class: 114
+      Script: {instanceID: 15504}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -131,25 +197,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12320}
     - Class: 114
-      Script: {instanceID: 12368}
+      Script: {instanceID: 12378}
     - Class: 114
-      Script: {instanceID: 12528}
+      Script: {instanceID: 12536}
     - Class: 114
-      Script: {instanceID: 12626}
+      Script: {instanceID: 12634}
     - Class: 114
-      Script: {instanceID: 13284}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13432}
+      Script: {instanceID: 13440}
     - Class: 114
-      Script: {instanceID: 13470}
+      Script: {instanceID: 13478}
     - Class: 114
-      Script: {instanceID: 13594}
+      Script: {instanceID: 13602}
     - Class: 114
-      Script: {instanceID: 13760}
+      Script: {instanceID: 13772}
     - Class: 114
-      Script: {instanceID: 13798}
+      Script: {instanceID: 13810}
     - Class: 114
-      Script: {instanceID: 13884}
+      Script: {instanceID: 13896}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -190,35 +256,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12320}
     - Class: 114
-      Script: {instanceID: 12368}
+      Script: {instanceID: 12378}
     - Class: 114
-      Script: {instanceID: 12400}
+      Script: {instanceID: 12410}
     - Class: 114
-      Script: {instanceID: 12486}
+      Script: {instanceID: 12494}
     - Class: 114
-      Script: {instanceID: 12626}
+      Script: {instanceID: 12634}
     - Class: 114
-      Script: {instanceID: 12918}
+      Script: {instanceID: 12926}
     - Class: 114
-      Script: {instanceID: 13284}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13432}
+      Script: {instanceID: 13440}
     - Class: 114
-      Script: {instanceID: 13470}
+      Script: {instanceID: 13478}
     - Class: 114
-      Script: {instanceID: 13594}
+      Script: {instanceID: 13602}
     - Class: 114
-      Script: {instanceID: 13798}
+      Script: {instanceID: 13810}
     - Class: 114
-      Script: {instanceID: 13884}
+      Script: {instanceID: 13896}
     - Class: 114
-      Script: {instanceID: 14898}
+      Script: {instanceID: 14914}
     - Class: 114
-      Script: {instanceID: 14990}
+      Script: {instanceID: 15006}
     - Class: 114
-      Script: {instanceID: 15010}
+      Script: {instanceID: 15026}
     - Class: 114
-      Script: {instanceID: 15338}
+      Script: {instanceID: 15354}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -253,25 +319,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12368}
+      Script: {instanceID: 12378}
     - Class: 114
-      Script: {instanceID: 12626}
+      Script: {instanceID: 12634}
     - Class: 114
-      Script: {instanceID: 13284}
+      Script: {instanceID: 13290}
     - Class: 114
-      Script: {instanceID: 13432}
+      Script: {instanceID: 13440}
     - Class: 114
-      Script: {instanceID: 13470}
+      Script: {instanceID: 13478}
     - Class: 114
-      Script: {instanceID: 13594}
+      Script: {instanceID: 13602}
     - Class: 114
-      Script: {instanceID: 13798}
+      Script: {instanceID: 13810}
     - Class: 114
-      Script: {instanceID: 13988}
+      Script: {instanceID: 14000}
     - Class: 114
-      Script: {instanceID: 14094}
+      Script: {instanceID: 14106}
     - Class: 114
-      Script: {instanceID: 14204}
+      Script: {instanceID: 14216}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -297,6 +363,24 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 0ffaf073d4b1fa4e8036cf7ad52ddba7
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
@@ -329,7 +413,7 @@ ScriptsOnlyBuild:
     className: ShaderPropAnimator
   - hash:
       serializedVersion: 2
-      Hash: 3630d504dcc56d0fc2a02a0cf996bba7
+      Hash: cf955bdb184e5be3a64ac6760c19f3c0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CreatQuestionCard
@@ -339,12 +423,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 0ffaf073d4b1fa4e8036cf7ad52ddba7
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Toggle
   - hash:
       serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
@@ -419,12 +497,6 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
-  - hash:
-      serializedVersion: 2
       Hash: c60c5cba0d5ed4f4a018240d6339217f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
@@ -459,6 +531,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TextMeshSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: e385275bcaf7f0016150075db3cdcf91
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DanielLochner.Assets.SimpleScrollSnap
+    className: SlotMachine
   - hash:
       serializedVersion: 2
       Hash: 27e5341178f188b89bdc6495710b590c
@@ -519,6 +597,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 3f7d3eac3468685ef18425a40cd5b891
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DanielLochner.Assets.SimpleScrollSnap
+    className: Rotator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DanielLochner.Assets.SimpleScrollSnap
+    className: FileSelected
   - hash:
       serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
@@ -599,7 +689,7 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
-      Hash: 6d5b615705f09ffa703dd47352b3ec68
+      Hash: 575e5a98d324ee48fbc5a7e989e48a93
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MenuScript
@@ -744,6 +834,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DanielLochner.Assets.SimpleScrollSnap
+    className: ExpandInformation
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
@@ -815,6 +911,12 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: 8751a7cdf77a4d6ddf8f2cb1f573d8bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DanielLochner.Assets.SimpleScrollSnap
+    className: DynamicContentController
+  - hash:
+      serializedVersion: 2
       Hash: b424b4eeb810aecb0ff91c62639241e9
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.Experimental.U2D.Animation
@@ -837,12 +939,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
-  - hash:
-      serializedVersion: 2
-      Hash: 040dd48e3a027d5424519a5fa2009df4
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: ScrollRect
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -959,6 +1055,12 @@ ScriptsOnlyBuild:
     className: TextConsoleSimulator
   - hash:
       serializedVersion: 2
+      Hash: cc562b2ac669f6a04d294b880b947ed8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DanielLochner.Assets.SimpleScrollSnap
+    className: SimpleScrollSnap
+  - hash:
+      serializedVersion: 2
       Hash: e63944317d2f5958e31963668bb29158
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -1013,44 +1115,15 @@ ScriptsOnlyBuild:
     className: TMP_TextEventCheck
   - hash:
       serializedVersion: 2
-      Hash: e385275bcaf7f0016150075db3cdcf91
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: DanielLochner.Assets.SimpleScrollSnap
-    className: SlotMachine
-  - hash:
-      serializedVersion: 2
-      Hash: 3f7d3eac3468685ef18425a40cd5b891
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: DanielLochner.Assets.SimpleScrollSnap
-    className: Rotator
-  - hash:
-      serializedVersion: 2
-      Hash: 8751a7cdf77a4d6ddf8f2cb1f573d8bc
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: DanielLochner.Assets.SimpleScrollSnap
-    className: DynamicContentController
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DanielLochner.Assets.SimpleScrollSnap
-    className: FileSelected
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: DanielLochner.Assets.SimpleScrollSnap
-    className: ExpandInformation
-  - hash:
-      serializedVersion: 2
-      Hash: cc562b2ac669f6a04d294b880b947ed8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: DanielLochner.Assets.SimpleScrollSnap
-    className: SimpleScrollSnap
+    namespaceName: 
+    className: GameData
   platform: 13
   scenePathNames:
   - Assets/Scenes/OpeningSceen.unity
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Card.unity
   - Assets/Scenes/ProjectFormula.unity
-  playerPath: C:/Users/Kalan/Desktop/textme04.apk
+  - Assets/Scenes/Levels.unity
+  playerPath: C:/Users/Kalan/Desktop/textme06.apk

@@ -6,7 +6,7 @@ using System.IO;
 public class JsonReader : MonoBehaviour
 {
     public static string path;
-    public static string fileName;
+    //public static string fileName;
 
     public static Questions[] questions;
 
@@ -31,7 +31,7 @@ public class JsonReader : MonoBehaviour
     public static void SetUp(string packName)
     {
         path = Application.dataPath + "/Jsons/";
-        fileName = "TryJson";
+        //fileName = "TryJson";
         ReadData(packName);
     }
     private static void ReadData(string packName)

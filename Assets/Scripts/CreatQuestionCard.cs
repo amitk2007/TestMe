@@ -7,6 +7,7 @@ using DanielLochner.Assets.SimpleSideMenu;
 
 public class CreatQuestionCard : MonoBehaviour
 {
+    #region Vriables
     public TextMeshProUGUI questionName;
     public TextMeshProUGUI questionText;
     public Image questionImage;
@@ -24,24 +25,43 @@ public class CreatQuestionCard : MonoBehaviour
     /// can the player answer the question (or is the menu on)
     /// </summary>
     bool isScreenClickable = true;
+
+    public Button retryButton;
     #endregion
 
+    /// <summary>
+    /// The current qestion on screen
+    /// </summary>
     public int currentCard = 0;
+
+    #endregion
 
     // Start is called before the first frame update
     void Start()
     {
-        JsonReader.SetUp("TryJson");
+        print(GameData.CurrentQuestionPack);
+        JsonReader.SetUp(GameData.CurrentQuestionPack);
+        //JsonReader.SetUp("TryJson");
         questionText.text = JsonReader.questions.Length + "";
         CreatCard(0);
     }
     #region buttons
     public void NextCardButtonClicked(bool isSkip)
     {
+        //reset the buttons colors to the default color
+        foreach (Button button in answerButtons)
+        {
+            print(button.name);
+            ChangeButtonColor(button.gameObject, Color.white, new Color(0.9843137f, 0.4980392f, 0.1176471f));
+            button.enabled = true;
+        }
+
         //set the card number
         currentCard = (currentCard == JsonReader.questions.Length - 1) ? 0 : currentCard + 1;
         CreatCard(currentCard);
         isScreenClickable = true;
+
+        //is skipping to the next question or is moving from menu
         if (isSkip == false)
         {
             Menu.Close();
@@ -54,18 +74,35 @@ public class CreatQuestionCard : MonoBehaviour
         {
             GameObject thisButton = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject;
             string correctAns = JsonReader.questions[currentCard].answers[JsonReader.questions[currentCard].courrectAnswer];
-            for (int i = 0; i < JsonReader.questions[currentCard].answers.Length; i++)
+            if (thisButton.GetComponentInChildren<TextMeshProUGUI>().text == correctAns)
             {
-                if (thisButton.GetComponentInChildren<TextMeshProUGUI>().text == correctAns)
-                {
-                    print("You are right");
-                    ShowAnswer(true);
-                    return;
-                }
+                print("You are right");
+                ShowAnswer(true);
+                ChangeButtonColor(thisButton, Color.green, new Color(0.7843137f, 0.5019608f, 0.6509804f));
+                return;
             }
+            ChangeButtonColor(thisButton, new Color(1f, 0.5235849f, 0.562416f), new Color(0.8867924f, 0.7656231f, 0.6483624f));
             ShowAnswer(false);
             print("Try again");
+            thisButton.GetComponent<Button>().enabled = false;
         }
+    }
+
+    public void RetryButtonClicked()
+    {
+        Menu.Close();
+        isScreenClickable = true;
+    }
+
+    public void ChangeButtonColor(GameObject button, Color color)
+    {
+        button.GetComponent<Image>().color = color;
+        button.transform.GetChild(1).GetComponent<Image>().color = new Color(200, 128, 166);
+    }
+    public void ChangeButtonColor(GameObject button, Color color, Color color1)
+    {
+        button.GetComponent<Image>().color = color;
+        button.transform.GetChild(1).GetComponent<Image>().color = color1;
     }
 
     public void ShowAnswer(bool isRight)
@@ -77,12 +114,14 @@ public class CreatQuestionCard : MonoBehaviour
             answerIsRightText.color = Color.green;
             answerIsRightText.text = "Correct";
             RightImage.enabled = true;
+            retryButton.gameObject.SetActive(false);
         }
         else
         {
             answerIsRightText.color = Color.red;
             answerIsRightText.text = "Maybe next time";
             RightImage.enabled = false;
+            retryButton.gameObject.SetActive(true);
         }
 
         Menu.Open();
@@ -136,6 +175,7 @@ public class CreatQuestionCard : MonoBehaviour
                 //answerButtons[i].transform.GetChild(0).gameObject.SetActive(true);
             }
         }
+
     }
 
     public void CreatImageFormula(string formula, Image sprite)
