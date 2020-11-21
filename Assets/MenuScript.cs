@@ -27,9 +27,6 @@ public class MenuScript : MonoBehaviour
         if (wrongInput != null)
         {
             wrongInput.enabled = false;
-            ///only for testings
-            PlayerData.ResetUsernameAndPassword();
-            ///
 
             if (PlayerData.IsUsernameAndPassword("", ""))
             {
@@ -89,7 +86,13 @@ public class MenuScript : MonoBehaviour
 
     public void OpenCards()
     {
-        GameData.CurrentQuestionPack  = simpleSnap.Panels[simpleSnap.CurrentPanel].name;
+        GameData.CurrentQuestionPack = simpleSnap.Panels[simpleSnap.CurrentPanel].name;
         Application.LoadLevel("Card");
+    }
+
+    public void LogOut()
+    {
+        PlayerData.ResetUsernameAndPassword();
+        Application.LoadLevel(0);
     }
 }

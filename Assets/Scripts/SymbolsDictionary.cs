@@ -19,6 +19,7 @@ public class SymbolsDictionary : MonoBehaviour
         symbolsDictionary.Add("GroupS", @"\mathbb{");
         symbolsDictionary.Add("GroupE", @"}");
         symbolsDictionary.Add("&", "%26");
+        //\geq -> '>=' , \leq -> '<='
         /*
          * \sqrt{49}
             \sum

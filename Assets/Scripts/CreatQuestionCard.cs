@@ -39,7 +39,6 @@ public class CreatQuestionCard : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print(GameData.CurrentQuestionPack);
         JsonReader.SetUp(GameData.CurrentQuestionPack);
         //JsonReader.SetUp("TryJson");
         questionText.text = JsonReader.questions.Length + "";
@@ -51,7 +50,6 @@ public class CreatQuestionCard : MonoBehaviour
         //reset the buttons colors to the default color
         foreach (Button button in answerButtons)
         {
-            print(button.name);
             ChangeButtonColor(button.gameObject, Color.white, new Color(0.9843137f, 0.4980392f, 0.1176471f));
             button.enabled = true;
         }
@@ -137,16 +135,19 @@ public class CreatQuestionCard : MonoBehaviour
     public void CreatCard(int cardNumber)
     {
         JsonReader.Questions question = JsonReader.questions[cardNumber];
+        //Disable everything and enable just what needed
+        questionText.enabled = false;
+        questionImage.enabled = false;
 
-        if (question.IsQuestionFormula)
+        if (question.IsQuestionFormula == Qtype.Formula || question.IsQuestionFormula == Qtype.TextAndFormula)
         {
-            CreatImageFormula(question.question, questionImage);
-            questionText.enabled = false;
+            questionImage.enabled = true;
+            CreatImageFormula(question.formula, questionImage);
         }
-        else
+        if (question.IsQuestionFormula == Qtype.Text || question.IsQuestionFormula == Qtype.TextAndFormula)
         {
+            questionText.enabled = true;
             questionText.text = question.question;
-            questionImage.enabled = false;
         }
 
         EnableButton(question.answers.Length);

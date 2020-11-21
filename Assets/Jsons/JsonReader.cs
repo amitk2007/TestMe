@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
+public enum Qtype
+{
+    Text,
+    Formula,
+    TextAndFormula
+}
 public class JsonReader : MonoBehaviour
 {
     public static string path;
@@ -15,7 +21,8 @@ public class JsonReader : MonoBehaviour
     {
         public string questionName;
         public string question;
-        public bool IsQuestionFormula;
+        public string formula;
+        public Qtype IsQuestionFormula;
         public string[] answers;
         public bool IsAnswersFormula;
         public int courrectAnswer;
@@ -33,6 +40,7 @@ public class JsonReader : MonoBehaviour
         path = Application.dataPath + "/Jsons/";
         //fileName = "TryJson";
         ReadData(packName);
+        //ReadData("TryJson");
     }
     private static void ReadData(string packName)
     {

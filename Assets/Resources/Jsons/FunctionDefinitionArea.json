@@ -1,25 +1,46 @@
 [
   {
     "questionName": "BasicMath1",
-    "question": "\\begin{eqnarray}3%2B5x%2B\\mathbb{R} %26= 2\\Psi\\\\X%26=3\\end{eqnarray}",
+    "question": "",
+    "formula": "\\begin{eqnarray}f(x)=\\sqrt{x}\\end{eqnarray}",
     "IsQuestionFormula": 1,
-    "answers": [ "2.1", "55", "1.5" ],
+    "answers": [ "x\\geq1", "x=-1", "x\\geq0", "x\\leq1" ],
+    "IsAnswersFormula": 1,
+    "courrectAnswer": 2
+  },
+  {
+    "questionName": "BasicMath2",
+    "question": "",
+    "formula": "\\begin{eqnarray}f(x)=2\\sqrt{x-3}\\end{eqnarray}",
+    "IsQuestionFormula": 1,
+    "answers": [ "x\\geq3", "x\\geq-3", "x\\leq2", "x>3" ],
     "IsAnswersFormula": 1,
     "courrectAnswer": 0
   },
   {
-    "questionName": "BasicMath2",
-    "question": "3+5x = 28",
+    "questionName": "BasicMath3",
+    "question": "",
+    "formula": "\\begin{eqnarray}f(x)=3x\\sqrt{1-2x}\\end{eqnarray}",
     "IsQuestionFormula": 1,
-    "answers": [ "2", "5", "1.5" ],
-    "IsAnswersFormula": 0,
+    "answers": [ "", "", "" ],
+    "IsAnswersFormula": 1,
     "courrectAnswer": 1
   },
   {
-    "questionName": "BasicMath3",
-    "question": "\\displaystyle\\Large\\int_{-\\infty}^{\\infty}e^{-x^{2}}\\;dx=\\left(\\frac{a}{b}\\right)\\sqrt{M\\cdot\\pi}\\hspace{20mm}x\\in\\mathbb{R}",
+    "questionName": "BasicMath4",
+    "question": "",
+    "formula": "\\begin{eqnarray}f(x)=\\frac{5x}{\\sqrt{x%2B4}}\\end{eqnarray}",
     "IsQuestionFormula": 1,
-    "answers": [ "3x^2", "\\frac{5}{\\sqrt{x}}", "infty" ],
+    "answers": [ "", "", "" ],
+    "IsAnswersFormula": 1,
+    "courrectAnswer": 1
+  },
+  {
+    "questionName": "BasicMath5",
+    "question": "",
+    "formula": "\\begin{eqnarray}f(x)=\\sqrt{\\sqrt{x%2B2}-3}\\end{eqnarray}",
+    "IsQuestionFormula": 1,
+    "answers": [ "", "", "" ],
     "IsAnswersFormula": 1,
     "courrectAnswer": 1
   }
