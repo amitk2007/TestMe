@@ -31,16 +31,21 @@ public class CreatQuestionCard : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        JsonReader.SetUp("TryJson");
         questionText.text = JsonReader.questions.Length + "";
         CreatCard(0);
     }
     #region buttons
-    public void NextCardButtonClicked()
+    public void NextCardButtonClicked(bool isSkip)
     {
         //set the card number
         currentCard = (currentCard == JsonReader.questions.Length - 1) ? 0 : currentCard + 1;
         CreatCard(currentCard);
         isScreenClickable = true;
+        if (isSkip == false)
+        {
+            Menu.Close();
+        }
     }
 
     public void AnswerButtonClick()
@@ -106,6 +111,7 @@ public class CreatQuestionCard : MonoBehaviour
         }
 
         EnableButton(question.answers.Length);
+
         if (question.IsAnswersFormula)
         {
             for (int i = 0; i < question.answers.Length; i++)

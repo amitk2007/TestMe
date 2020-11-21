@@ -23,15 +23,22 @@ public class JsonReader : MonoBehaviour
 
     void Start()
     {
-        path = Application.dataPath + "/Jsons/";
-        fileName = "TryJson";
-        ReadData();
+        //path = Application.dataPath + "/Jsons/";
+        //fileName = "TryJson";
+        //ReadData();
         //SaveData(questions);
     }
-
-    private void ReadData()
+    public static void SetUp(string packName)
     {
-        string jsonStr = File.ReadAllText(path + fileName + ".json");
+        path = Application.dataPath + "/Jsons/";
+        fileName = "TryJson";
+        ReadData(packName);
+    }
+    private static void ReadData(string packName)
+    {
+
+        string jsonStr = ((TextAsset)Resources.Load("Jsons/"+ packName, typeof(TextAsset))).text;
+        //string jsonStr = File.ReadAllText(path + fileName + ".json");
         questions = JsonHelper.getJsonArray<Questions>(jsonStr);
     }
 

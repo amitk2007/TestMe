@@ -27,10 +27,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -66,31 +64,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12364}
+      Script: {instanceID: 12320}
     - Class: 114
-      Script: {instanceID: 12452}
+      Script: {instanceID: 12368}
     - Class: 114
-      Script: {instanceID: 12622}
+      Script: {instanceID: 12456}
     - Class: 114
-      Script: {instanceID: 13280}
+      Script: {instanceID: 12626}
     - Class: 114
-      Script: {instanceID: 13428}
+      Script: {instanceID: 13284}
     - Class: 114
-      Script: {instanceID: 13466}
+      Script: {instanceID: 13432}
     - Class: 114
-      Script: {instanceID: 13590}
+      Script: {instanceID: 13470}
     - Class: 114
-      Script: {instanceID: 13790}
+      Script: {instanceID: 13594}
     - Class: 114
-      Script: {instanceID: 13902}
+      Script: {instanceID: 13760}
     - Class: 114
-      Script: {instanceID: 13982}
+      Script: {instanceID: 13798}
     - Class: 114
-      Script: {instanceID: 14088}
+      Script: {instanceID: 13988}
     - Class: 114
-      Script: {instanceID: 14198}
+      Script: {instanceID: 14094}
     - Class: 114
-      Script: {instanceID: 21966}
+      Script: {instanceID: 14204}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -131,27 +129,27 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12364}
+      Script: {instanceID: 12320}
     - Class: 114
-      Script: {instanceID: 12524}
+      Script: {instanceID: 12368}
     - Class: 114
-      Script: {instanceID: 12622}
+      Script: {instanceID: 12528}
     - Class: 114
-      Script: {instanceID: 13280}
+      Script: {instanceID: 12626}
     - Class: 114
-      Script: {instanceID: 13428}
+      Script: {instanceID: 13284}
     - Class: 114
-      Script: {instanceID: 13466}
+      Script: {instanceID: 13432}
     - Class: 114
-      Script: {instanceID: 13590}
+      Script: {instanceID: 13470}
     - Class: 114
-      Script: {instanceID: 13790}
+      Script: {instanceID: 13594}
     - Class: 114
-      Script: {instanceID: 13876}
+      Script: {instanceID: 13760}
     - Class: 114
-      Script: {instanceID: 13902}
+      Script: {instanceID: 13798}
     - Class: 114
-      Script: {instanceID: 21966}
+      Script: {instanceID: 13884}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -190,37 +188,37 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12364}
+      Script: {instanceID: 12320}
     - Class: 114
-      Script: {instanceID: 12396}
+      Script: {instanceID: 12368}
     - Class: 114
-      Script: {instanceID: 12482}
+      Script: {instanceID: 12400}
     - Class: 114
-      Script: {instanceID: 12622}
+      Script: {instanceID: 12486}
     - Class: 114
-      Script: {instanceID: 12914}
+      Script: {instanceID: 12626}
     - Class: 114
-      Script: {instanceID: 13280}
+      Script: {instanceID: 12918}
     - Class: 114
-      Script: {instanceID: 13428}
+      Script: {instanceID: 13284}
     - Class: 114
-      Script: {instanceID: 13466}
+      Script: {instanceID: 13432}
     - Class: 114
-      Script: {instanceID: 13590}
+      Script: {instanceID: 13470}
     - Class: 114
-      Script: {instanceID: 13790}
+      Script: {instanceID: 13594}
     - Class: 114
-      Script: {instanceID: 13876}
+      Script: {instanceID: 13798}
     - Class: 114
-      Script: {instanceID: 13902}
+      Script: {instanceID: 13884}
     - Class: 114
-      Script: {instanceID: 14892}
+      Script: {instanceID: 14898}
     - Class: 114
-      Script: {instanceID: 14984}
+      Script: {instanceID: 14990}
     - Class: 114
-      Script: {instanceID: 15004}
+      Script: {instanceID: 15010}
     - Class: 114
-      Script: {instanceID: 15330}
+      Script: {instanceID: 15338}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -255,25 +253,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12364}
+      Script: {instanceID: 12368}
     - Class: 114
-      Script: {instanceID: 12622}
+      Script: {instanceID: 12626}
     - Class: 114
-      Script: {instanceID: 13280}
+      Script: {instanceID: 13284}
     - Class: 114
-      Script: {instanceID: 13428}
+      Script: {instanceID: 13432}
     - Class: 114
-      Script: {instanceID: 13466}
+      Script: {instanceID: 13470}
     - Class: 114
-      Script: {instanceID: 13590}
+      Script: {instanceID: 13594}
     - Class: 114
-      Script: {instanceID: 13790}
+      Script: {instanceID: 13798}
     - Class: 114
-      Script: {instanceID: 13982}
+      Script: {instanceID: 13988}
     - Class: 114
-      Script: {instanceID: 14088}
+      Script: {instanceID: 14094}
     - Class: 114
-      Script: {instanceID: 14198}
+      Script: {instanceID: 14204}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -293,6 +291,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: f087c23fbfa15475a0d110af46fb0496
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
@@ -547,6 +551,12 @@ ScriptsOnlyBuild:
     className: Benchmark03
   - hash:
       serializedVersion: 2
+      Hash: 21ebd5d8496ec610215bfccb22b340a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DanielLochner.Assets.SimpleSideMenu
+    className: SimpleSideMenu
+  - hash:
+      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -599,12 +609,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: Benchmark04
-  - hash:
-      serializedVersion: 2
-      Hash: f087c23fbfa15475a0d110af46fb0496
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
   - hash:
       serializedVersion: 2
       Hash: edd2d73bd2e5953269c476fc6c82b2fd
@@ -1009,14 +1013,44 @@ ScriptsOnlyBuild:
     className: TMP_TextEventCheck
   - hash:
       serializedVersion: 2
-      Hash: 21ebd5d8496ec610215bfccb22b340a3
+      Hash: e385275bcaf7f0016150075db3cdcf91
     assemblyName: Assembly-CSharp.dll
-    namespaceName: DanielLochner.Assets.SimpleSideMenu
-    className: SimpleSideMenu
+    namespaceName: DanielLochner.Assets.SimpleScrollSnap
+    className: SlotMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 3f7d3eac3468685ef18425a40cd5b891
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DanielLochner.Assets.SimpleScrollSnap
+    className: Rotator
+  - hash:
+      serializedVersion: 2
+      Hash: 8751a7cdf77a4d6ddf8f2cb1f573d8bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DanielLochner.Assets.SimpleScrollSnap
+    className: DynamicContentController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DanielLochner.Assets.SimpleScrollSnap
+    className: FileSelected
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DanielLochner.Assets.SimpleScrollSnap
+    className: ExpandInformation
+  - hash:
+      serializedVersion: 2
+      Hash: cc562b2ac669f6a04d294b880b947ed8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DanielLochner.Assets.SimpleScrollSnap
+    className: SimpleScrollSnap
   platform: 13
   scenePathNames:
   - Assets/Scenes/OpeningSceen.unity
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Card.unity
   - Assets/Scenes/ProjectFormula.unity
-  playerPath: C:/Users/Kalan/Desktop/textme03.apk
+  playerPath: C:/Users/Kalan/Desktop/textme04.apk

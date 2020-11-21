@@ -1219,7 +1219,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176691877}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9bc50dad557a34748ad33883b5c08c3f, type: 3}
   m_Name: 
@@ -1541,7 +1541,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Next
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -1912,8 +1912,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1176691883}
         m_TargetAssemblyTypeName: CreatQuestionCard, Assembly-CSharp
-        m_MethodName: AnswerButtonClick
-        m_Mode: 1
+        m_MethodName: NextCardButtonClicked
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2913,14 +2913,14 @@ MonoBehaviour:
       - m_Target: {fileID: 1176691883}
         m_TargetAssemblyTypeName: CreatQuestionCard, Assembly-CSharp
         m_MethodName: NextCardButtonClicked
-        m_Mode: 1
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &2016528459
 MonoBehaviour:
