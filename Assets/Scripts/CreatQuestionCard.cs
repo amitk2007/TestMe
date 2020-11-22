@@ -201,6 +201,10 @@ public class CreatQuestionCard : MonoBehaviour
 
     public void EnableButton(int answersNumber)
     {
+        foreach (Button button in answerButtons)
+        {
+            button.gameObject.SetActive(true);
+        }
         for (int i = answersNumber; i < answerButtons.Length; i++)
         {
             answerButtons[i].gameObject.SetActive(false);

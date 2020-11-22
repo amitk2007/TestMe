@@ -1,0 +1,39 @@
+[
+  {
+    "questionName": "BasicMath1",
+    "question": "For which values a is this matrix not reversible?",
+    "formula": "A = {\\left[\\begin{array}{cc} 2 %26 a \\\\ 5 %26 -5 \\end{array}\\right]}",
+    "IsQuestionFormula": 2,
+    "answers": [ "-2", "3", "0", "-1" ],
+    "IsAnswersFormula": 1,
+    "courrectAnswer": 0
+  },
+  {
+    "questionName": "BasicMath2",
+    "question": "What it AB",
+    "formula": "A={\\left(\\begin{array}{ccc} 4 %26 1 %26 0 \\\\ -1 %26 1 %26 3 \\end{array}\\right)}\\hspace{2mm},\\hspace{2mm} B={\\left(\\begin{array}{cc} 4 %26 4 \\\\ 4 %26 4 \\\\ 3 %26 -1 \\end{array}\\right)}",
+    "IsQuestionFormula": 2,
+    "answers": ["\\left(\\begin{array}{cc} 1 %26 0 \\\\ 0%26 -1 \\end{array}\\right)", "\\left(\\begin{array}{cc} 2 %26 -2 \\\\ -1%26 1 \\end{array}\\right)", "\\left(\\begin{array}{cc} 20 %26 20 \\\\ 9%26 -3 \\end{array}\\right)" ],
+    "IsAnswersFormula": 1,
+    "courrectAnswer": 3
+  },
+  {
+    "questionName": "BasicMath2",
+    "question": "If A is a symmetric matrix (i.e. A '= A).\nIs A * A symmetrical?",
+    "formula": "",
+    "IsQuestionFormula": 0,
+    "answers": [ "true", "false" ],
+    "IsAnswersFormula": 0,
+    "courrectAnswer": 0
+  },
+  {
+    "questionName": "BasicMath2",
+    "question": "Find the inverse matrix",
+    "formula": "A={\\left(\\begin{array}{ccc} 1 %26 4 %26 -2 \\\\ 0 %26 -1 %26 1 \\\\ 0 %26 0 %26 1 \\end{array}\\right)}",
+    "IsQuestionFormula": 2,
+    "answers": [ "\\left(\\begin{array}{ccc} 1 %26 4 %26 -2 \\\\ 0 %26 -1 %26 -1 \\\\ 0 %26 0 %26 1 \\end{array}\\right)", "\\left(\\begin{array}{ccc} 1 %26 4 %26 -2 \\\\ 0 %26 -1 %26 1 \\\\ 0 %26 0 %26 1 \\end{array}\\right)", "\\left(\\begin{array}{ccc} 1 %26 4 %26 -2 \\\\ 0 %26 -1 %26 1 \\\\ 0 %26 0 %26 0 \\end{array}\\right)" ],
+    "IsAnswersFormula": 1,
+    "courrectAnswer": 1
+  }
+
+]

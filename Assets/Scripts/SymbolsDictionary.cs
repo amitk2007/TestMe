@@ -10,7 +10,7 @@ public class SymbolsDictionary : MonoBehaviour
     void Start()
     {
         symbolsDictionary = new Dictionary<string, string>();
-        symbolsDictionary.Add("+", "%2B");
+        symbolsDictionary.Add("+", "%2B");///must
         symbolsDictionary.Add("/", "%2F");
         symbolsDictionary.Add("!", "%21");
         symbolsDictionary.Add("(", "%28");
@@ -18,7 +18,7 @@ public class SymbolsDictionary : MonoBehaviour
         symbolsDictionary.Add("/", "%2F");
         symbolsDictionary.Add("GroupS", @"\mathbb{");
         symbolsDictionary.Add("GroupE", @"}");
-        symbolsDictionary.Add("&", "%26");
+        symbolsDictionary.Add("&", "%26"); ///must
         //\geq -> '>=' , \leq -> '<='
         /*
          * \sqrt{49}
