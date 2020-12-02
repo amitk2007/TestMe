@@ -1,0 +1,38 @@
+[
+  {
+    "questionName": "MagicLimit1",
+    "question": "What is",
+    "formula": "\\lim_{x \\to 0} \\frac{\\ln (1%2Bx)}{x}",
+    "IsQuestionFormula": 2,
+    "answers": [ "-1", "0", "\\ln(2)", "1" ],
+    "IsAnswersFormula": 1,
+    "courrectAnswer": 3
+  },
+  {
+    "questionName": "MagicLimit2",
+    "question": "What is",
+    "formula": "\\lim_{x \\to 0} \\frac{b^x -1}{x}",
+    "IsQuestionFormula": 2,
+    "answers": [ "b", "\\ln(b-1)", "\\ln(b)", "b-1" ],
+    "IsAnswersFormula": 1,
+    "courrectAnswer": 2
+  },
+  {
+    "questionName": "MagicLimit3",
+    "question": "What is",
+    "formula": "\\lim_{x \\to \\infty} (1%2B \\frac{1}{x})^x",
+    "IsQuestionFormula": 2,
+    "answers": [ "1", "\\frac{1}{\\sqrt{e}}", "e" ],
+    "IsAnswersFormula": 1,
+    "courrectAnswer": 2
+  },
+  {
+    "questionName": "MagicLimit4",
+    "question": "What is",
+    "formula": "\\lim_{x \\to 0} \\frac{\\sin(x)}{x}",
+    "IsQuestionFormula": 2,
+    "answers": [ "1", "infty", "-infty", "0" ],
+    "IsAnswersFormula": 1,
+    "courrectAnswer": 0
+  }
+]

@@ -11,8 +11,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -1126,4 +1124,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Card.unity
   - Assets/Scenes/ProjectFormula.unity
   - Assets/Scenes/Levels.unity
-  playerPath: C:/Users/Kalan/Desktop/textme08.apk
+  playerPath: C:/Users/Kalan/Desktop/TestMe Demo.apk
